@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>FORMS</h1>
+    <h2>Seaching in ....</h2>
+    <form id="search-form">
+      <input
+        type="text"
+        placeholder="search for a city"
+        autocomplete="off"
+        autofocus="on"
+        id="search-text-input"
+      />
+
+      <input type="submit" value="Search" />
+    </form>
+    <script>
+      function search(event) {
+        event.preventDefault();
+        let searchInput = document.querySelector("#search-text-input");
+
+        let h2 = document.querySelector("h2");
+        if (searchInput.value) {
+          h2.innerHTML = `Searching for ${searchInput.value}....`;
+        } else {
+          h2.innerHTML = null;
+          alert("type something");
+        }
+      }
+      let form = document.querySelector("#search-form");
+
+      form.addEventListener("submit", search);
+    </script>
+  </body>
+</html>

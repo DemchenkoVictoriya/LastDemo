@@ -1,0 +1,106 @@
+body {
+  background: #ecf2f9;
+  margin: auto;
+  margin-top: 100px;
+  font-family: "Ibarra Real Nova", serif;
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+  border: 5px solid #f0d9da;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 10px 5px 5px #f0d9da;
+}
+bold {
+  position: relative;
+  left: 15px;
+}
+h1 {
+  text-align: left;
+  font-weight: 700;
+}
+h6 {
+  text-align: left;
+}
+h2 {
+  padding-left: 14px;
+}
+#temp {
+  color: #294a66;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+.btn {
+  color: #294a66;
+  background: #c8d9eb;
+  border: 0;
+  box-shadow: 10px 5px 5px #c8d9eb;
+}
+#one {
+  height: 100px;
+  width: 500px;
+  border: 2px solid #f9ecec;
+  background-color: #f9ecec;
+  border-radius: 20px;
+}
+.two {
+  height: 100px;
+  width: 150px;
+  padding-left: 40px;
+  font-size: 20px;
+  background-color: #f0d9da;
+  border-radius: 20px;
+  align-items: center;
+}
+.three {
+  height: 100px;
+  width: 150px;
+  font-size: 20px;
+  padding-left: 30px;
+  background-color: #f9ecec;
+  border-radius: 20px;
+  border: 2px solid #f9ecec;
+  margin-left: 20px;
+}
+.four {
+  height: 100px;
+  width: 100px;
+  padding-left: 20px;
+  border: 2px solid #c8d9eb;
+  background-color: #c8d9eb;
+  border-radius: 20px;
+  margin: 0 10px 0 20px;
+}
+.five {
+  height: 100px;
+  width: 100px;
+  padding-left: 20px;
+  background-color: #f9ecec;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.six {
+  height: 100px;
+  width: 100px;
+
+  background-color: #c8d9eb;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.seven {
+  height: 100px;
+  width: 100px;
+  background-color: #f9ecec;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  background-color: #f0d9da;
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  color: #231d3c;
+}
+
+h1 {
+  font-family: "Edu SA Beginner", cursive;
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 36px;
+  line-height: 48px;
+}
+.cloud {
+  color: darkslategray;
+  font-size: 130px;
+}
+.temp {
+  color: #ff6f3c;
+  font-size: 200px;
+}
+.sun {
+  font-size: 20px;
+  color: #ffc93c;
+}
